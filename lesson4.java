@@ -1,17 +1,15 @@
-package lesson4;
+package printing;
 
 public class lesson4 {
 
 	public static void main(String[] args) {
-		String magac= "   J    a   v     v  a \r\n" + 
-				"   J   a a   v   v  a a \r\n" + 
-				"J  J  aaaaa   V V  aaaaa \r\n" + 
-				" JJ  a     a   V  a     a\r\n" + 
-				"\r\n" + 
-				"";
 		
-		System.out.println("J    a   v     v  a"+"\n"+magac);
-
+System.out.println("\nTwinkle , twinkle ,little star,\n"
+		+ "How I wonder what you are !\n"
+		+ "Up above the world so high,\n"
+		+ "Like a diamond in the sky. \n "
+		+ "Twinkle ,twinkle, little star,\n"
+		+ " How I wonder what you are \n\n  ");
 	}
 
 }

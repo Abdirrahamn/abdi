@@ -1,35 +1,20 @@
-package lesson6;
-import java.util.Scanner;
+package permeter;
 
 public class lesson6 {
 
 	public static void main(String[] args) {
-		 Scanner Kasoosaar = new Scanner(System.in);
-	        int n1;        
-	        int n2;   
-	      
-	        System.out.print( "Geli first  number: " );       
-	        n1 = Kasoosaar.nextInt();   
-	 
-	        System.out.print( "Geli second number: " );         
-	        n2 = Kasoosaar.nextInt();                
-	        
-	        if ( n1 == n2 )           
-	        	System.out.printf( "%d == %d\n", n1, n2 );  
-	        if ( n1 != n2 )          
-	            System.out.printf( "%d != %d\n", n1, n2 );  
-	        if ( n1 < n2 )          
-	            System.out.printf( "%d < %d\n", n1, n2 );  
-	        if ( n1 > n2 )          
-	            System.out.printf( "%d > %d\n", n1, n2 );  
-	        if ( n1 <= n2 )          
-	            System.out.printf( "%d <= %d\n", n1, n2 );  
-	        if ( n1 >= n2 )          
-	            System.out.printf( "%d >= %d\n", n1, n2 );
+		
+		final double width = 2;
+        final double height = 2;
 
+        double perimeter = 2*(width + height);
+		
+        double area = width * height;			
+		
+		System.out.printf("Perimeter is 2*(%.1f + %.1f) = %.2f \n", height, width, perimeter);
 
-
-
+        System.out.printf("Area is %.1f * %.1f = %.2f \n", width, height, area);
+		
 	}
 
 }
